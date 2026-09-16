@@ -1,0 +1,20 @@
+# Credentials. Never commit these.
+.env
+**/.env
+secrets.yaml
+
+# Dashboard backups written by build_dashboard.py. They are a full inventory of
+# your entities, so keep them local.
+backups/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor and OS noise
+.DS_Store
+.claude/settings.local.json
+
+# Capture and browser artifacts
+*.pcap
+.playwright-mcp/
